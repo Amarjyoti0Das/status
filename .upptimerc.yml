@@ -1,31 +1,33 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+repo: status
+owner: Amarjyoti0Das
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Primary
+    url: https://www.amarjyoti.dev
+    icon: https://amarjyoti.dev/favicon.svg
+  - name: Backup
+    url: https://mirror.amarjyoti.dev
+    icon: https://amarjyoti.dev/favicon.svg
+  - name: Status
+    url: https://status.amarjyoti.dev
+    icon: https://amarjyoti.dev/favicon.svg
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.amarjyoti.dev
+  name: Status Page | Amarjyoti Das
+  logoUrl: https://amarjyoti.dev/favicon.svg
+  favicon: https://amarjyoti.dev/favicon.svg
+  introTitle: "**Amarjyoti.Dev Status**"
+  introMessage: >-
+    Real-time availability, response times, and incident reports for
+    [Amarjyoti.dev](https://amarjyoti.dev), its
+    [backup mirror](https://mirror.amarjyoti.dev), and the status page itself.
   navbar:
     - title: Status
       href: /
+    - title: Primary
+      href: https://www.amarjyoti.dev
+    - title: Backup
+      href: https://mirror.amarjyoti.dev
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
